@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+.ModoDeJogo {
+  width: 200px;      /* Altere o valor como preferir */
+  height: 50px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+.tabuleiro {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  justify-content: center;
+  /* margin: 20px auto; */
+}
+
+.tabuleiro button {
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* extras opcionais */
+  background-color: #eee;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
